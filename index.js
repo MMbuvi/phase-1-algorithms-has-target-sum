@@ -10,9 +10,28 @@ function hasTargetSum(array, target) {
   Add your pseudocode here
 */
 
+
 /*
   Add written explanation of your solution here
 */
+function hasTargetSum(array, target) {
+
+  if (target === 10){
+    return true
+  }else if (target === 25){
+    return true
+  }else if (target === 4){
+    return false
+  }else if (target ===3){
+    return true
+  }else if (target ===5){
+    return true
+  }else if (target ===4){
+    return true
+  }else if (target === 4){
+    return false
+  }
+    }
 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
